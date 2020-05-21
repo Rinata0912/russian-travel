@@ -1,0 +1,13 @@
+.header__lang-link {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    border-bottom: 2px solid transparent;
+    width: 30px;
+    height: 28px;
+}
+
+.header__lang-link:hover {
+    
+}
