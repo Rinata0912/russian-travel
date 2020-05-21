@@ -5,7 +5,8 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    width: 1184px;
+    max-width: 1184px;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
     display: flex;
