@@ -10,6 +10,7 @@
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 
 * {
   outline: 1px solid red;
