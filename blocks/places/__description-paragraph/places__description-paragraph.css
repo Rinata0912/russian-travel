@@ -1,0 +1,10 @@
+.places__description-paragraph {
+  margin: 0 0 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.places__description-paragraph:last-child {
+  margin-bottom: 0;
+}

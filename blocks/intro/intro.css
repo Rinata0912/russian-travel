@@ -5,7 +5,7 @@
 @import url(./__title/intro__title.css);
 
 .intro {
-  padding: 92px 0;
+  margin: 92px 0;
   color: #fff;
   max-width: 690px;
   width: 100%;

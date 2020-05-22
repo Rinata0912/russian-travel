@@ -8,6 +8,7 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
+@import url(../blocks/places/places.css);
 
 * {
   outline: 1px solid red;
