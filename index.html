@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>Путешествия по России</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Путешествия по России</title>
 </head>
 <body>
-    <div class="page">
-        <header class="header">
-            <a href="#" class="logo logo_place_header"><img src="./images/__logo.svg" alt="логотип"></a>
-            <nav class="header__lang">
-                <ul class="header__lang-list">
-                    <li class="header__lang-item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
-                    <li class="header__lang-item"><a href="#" class="header__lang-link">En</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="content">
-            <section class="lead">
-              <h1 class="lead__title">Путешествия по России</h1>
-              <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-              <img src="./images/lead__image.jpg" alt="" class="lead__image">
-              <p class="lead__caption">ваша полка — верхняя</p>
-            </section>
-            <section class="intro">
-              <h2 class="intro__title">Чего мы там не видели?</h2>
-              <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
-                но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
-                не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми
-                лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без
-                миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова
-                — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
-                проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные
-                места, достойные вашего отпуска.</p>
-              <div class="intro__list">
-                <p class="intro__item"><span class="intro__item_bold">Часовых поясов</span> 11</p>
-                <p class="intro__item"><span class="intro__item_bold">Объектов природного наследия ЮНЕСКО</span> 12</p>
-                <p class="intro__item"><span class="intro__item_bold">Объектов культурного наследия ЮНЕСКО</span> 16</p>
-                <p class="intro__item"><span class="intro__item_bold">Природных заповедников</span> 105</p>
-                <p class="intro__item"><span class="intro__item_bold">Аэропортов</span> 241</p>
-              </div>
-            </section>
-        </main>
-    </div>
+  <div class="page">
+    <header class="header">
+      <a href="#" class="logo logo_place_header"><img src="./images/__logo.svg" alt="логотип"></a>
+      <nav class="header__lang">
+        <ul class="header__lang-list">
+          <li class="header__lang-item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+          <li class="header__lang-item"><a href="#" class="header__lang-link">En</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <div class="container">
+        <section class="lead">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+          <img src="./images/lead__image.jpg" alt="" class="lead__image">
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </section>
+      </div>
+      <div class="container">
+        <section class="intro">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
+            но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
+            не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми
+            лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без
+            миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова
+            — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
+            проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные
+            места, достойные вашего отпуска.</p>
+          <div class="intro__list">
+            <p class="intro__item"><span class="intro__item_bold">Часовых поясов</span> 11</p>
+            <p class="intro__item"><span class="intro__item_bold">Объектов природного наследия ЮНЕСКО</span> 12</p>
+            <p class="intro__item"><span class="intro__item_bold">Объектов культурного наследия ЮНЕСКО</span> 16</p>
+            <p class="intro__item"><span class="intro__item_bold">Природных заповедников</span> 105</p>
+            <p class="intro__item"><span class="intro__item_bold">Аэропортов</span> 241</p>
+          </div>
+        </section>
+      </div>
+      <section class="photo-gallery">
+        <img src="./images/photo-grid_1.jpg" alt="вид из окна поезда" class="photo-gallery__item">
+        <img src="./images/photo-grid_2.jpg" alt="снежные горы в облаках" class="photo-gallery__item">
+        <img src="./images/photo-grid_3.jpg" alt="волк на стоге сена" class="photo-gallery__item">
+        <img src="./images/photo-grid_4.jpg" alt="лес в тумане" class="photo-gallery__item">
+        <img src="./images/photo-grid_5.jpg" alt="автомобиль на льду" class="photo-gallery__item">
+        <img src="./images/photo-grid_6.jpg" alt="берег" class="photo-gallery__item">
+        <img src="./images/photo-grid_7.jpg" alt="снежные горы" class="photo-gallery__item">
+        <img src="./images/photo-grid_8.jpg" alt="знак пешеходного перехода" class="photo-gallery__item">
+        <img src="./images/photo-grid_9.jpg" alt="горы в тумане" class="photo-gallery__item">
+        <img src="./images/photo-grid_10.jpg" alt="поле и гора в дали" class="photo-gallery__item">
+        <img src="./images/photo-grid_11.jpg" alt="высокие скалы у берега" class="photo-gallery__item">
+        <img src="./images/photo-grid_12.jpg" alt="горная местность в тумане" class="photo-gallery__item">
+      </section>
+    </main>
+  </div>
 </body>
 </html>
