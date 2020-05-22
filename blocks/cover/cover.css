@@ -1,0 +1,29 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__content/cover__content.css);
+
+ .cover {
+   max-width: 1184px;
+   height: 740px;
+   margin: 92px auto;
+   color: #fff;
+   background: url(../../images/cover_img.jpg) no-repeat;
+   background-size: cover;
+   display: flex;
+   position: relative;
+ }
+
+ .cover::after {
+   content: "";
+   display: block;
+   background-color: rgba(42, 44, 47, .3);
+   max-width: 1184px;
+   height: 740px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 1;
+ }
+
