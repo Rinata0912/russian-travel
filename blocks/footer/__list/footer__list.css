@@ -4,4 +4,12 @@
   margin: 0;
   display: flex;
   flex-direction: row;
+  font-size: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
 }

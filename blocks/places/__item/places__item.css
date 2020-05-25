@@ -29,3 +29,12 @@
     margin-bottom: 72px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    grid-template-columns: 320px;
+    grid-template-rows: min-content;
+    grid-gap: 32px;
+    margin-bottom: 72px;
+  }
+}
