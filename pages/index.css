@@ -11,6 +11,3 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 
-* {
-  outline: 1px solid red;
-}

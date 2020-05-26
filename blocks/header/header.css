@@ -2,7 +2,7 @@
 @import url(./__lang/header__lang.css);
 @import url(./__lang-list/header__lang-list.css);
 @import url(./__lang-item/header__lang-item.css);
-@import url(./__lang-link/_active/header__lang-link_active.css);
+@import url(./__lang-link/_state/header__lang-link_state_active.css);
 
 .header {
   max-width: 1184px;
