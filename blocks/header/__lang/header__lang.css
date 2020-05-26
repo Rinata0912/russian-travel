@@ -1,7 +1,7 @@
 .header__lang {
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 6px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 6px;
 }
 
 @media screen and (max-width: 767px) {
