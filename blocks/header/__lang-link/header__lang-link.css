@@ -1,4 +1,5 @@
 .header__lang-link {
+  display: inline-block;
   list-style: none;
   text-decoration: none;
   color: #fff;

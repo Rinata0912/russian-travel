@@ -1,7 +1,6 @@
 .intro__container {
   color: #fff;
   max-width: 690px;
-  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
