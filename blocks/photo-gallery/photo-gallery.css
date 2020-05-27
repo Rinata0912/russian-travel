@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 767px) {
   .photo-gallery {
-    max-width: 288px;
+    max-width: calc(100% - 32px);
   }
 }

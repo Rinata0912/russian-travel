@@ -1,7 +1,7 @@
-.header__lang-link_active {
+.header__lang-link_state_active {
   border-bottom-color: #fff;
 }
 
-.header__lang-link_active:hover {
+.header__lang-link_state_active:hover {
   opacity: 1;
 }
