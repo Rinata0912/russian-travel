@@ -1,3 +1,5 @@
+@import url(./_state/header__lang-link_state_active.css);
+
 .header__lang-link {
   list-style: none;
   text-decoration: none;

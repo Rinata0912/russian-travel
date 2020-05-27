@@ -1,6 +1,6 @@
 @import url(./__container/intro__container.css);
 @import url(./__item/intro__item.css);
-@import url(./__item/_bold/intro__item_bold.css);
+@import url(./__item-name/intro__item-name.css);
 @import url(./__list/intro__list.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
