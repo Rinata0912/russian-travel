@@ -11,6 +11,6 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 
-* {
-  outline: 1px solid red;
+body {
+  background-color: #2A2C2F;
 }
