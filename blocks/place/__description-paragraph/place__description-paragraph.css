@@ -1,4 +1,4 @@
-.places__description-paragraph {
+.place__description-paragraph {
   margin: 0 0 24px;
   font-weight: normal;
   font-size: 18px;
@@ -6,12 +6,12 @@
   color: #fff;
 }
 
-.places__description-paragraph:last-child {
+.place__description-paragraph:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
-  .places__description-paragraph {
+  .place__description-paragraph {
     font-size: 16px;
     line-height: 26px;
   }

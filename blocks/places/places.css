@@ -1,13 +1,4 @@
-@import url(./__description-paragraph/places__description-paragraph.css);
-@import url(./__description/places__description.css);
-@import url(./__image/places__image.css);
-@import url(./__item/places__item.css);
-@import url(./__title/places__title.css);
-@import url(./__website-heading/places__website-heading.css);
-@import url(./__website-link/places__website-link.css);
-@import url(./__website/places__website.css);
-
- .places {
+.places {
   max-width: 984px;
   margin: 92px auto;
  }

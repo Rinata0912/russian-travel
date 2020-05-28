@@ -1,4 +1,12 @@
-.places__item {
+@import url(./__description-paragraph/place__description-paragraph.css);
+@import url(./__description/place__description.css);
+@import url(./__image/place__image.css);
+@import url(./__title/place__title.css);
+@import url(./__website-heading/place__website-heading.css);
+@import url(./__website-link/place__website-link.css);
+@import url(./__website/place__website.css);
+
+.place {
   max-width: 100%;
   width: 100%;
   display: grid;
@@ -9,12 +17,12 @@
   margin-bottom: 80px;
 }
 
-.places__item:last-child {
+.place:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .places__item {
+  .place {
     grid-template-columns: 440px 456px;
     grid-template-rows: min-content min-content;
     grid-column-gap: 32px;
@@ -22,7 +30,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .places__item {
+  .place {
     grid-template-columns: 340px 352px;
     grid-template-rows: min-content min-content;
     grid-column-gap: 28px;
@@ -31,7 +39,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places__item {
+  .place {
     grid-template-columns: 100%;
     grid-template-rows: min-content;
     grid-gap: 32px;
